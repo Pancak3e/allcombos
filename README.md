@@ -5,7 +5,9 @@ A Python script that creates all possible alphanumerical and symbol combinations
 While I was working on courses in Pentesterlab, I felt like I needed a list of URL Fuzzing possibilities that varied between A0 and 9F
 I did some googling and found two seperate tutorial scripts that I merged together and tweaked, those were used to make this.
 
-This script allows us to create a list of all the combinations between any characters you insert.
+This script allows us to create a list of all the combinations between any characters you insert
+It then leaves behind a .txt file so we can cat, pipe and grep our URL's together for proper FUZZING!
+
 Do you need a list that contains all the combinations with the characters 'A012' in 2x2 format? (Like I did!)
   This script does it automatically!
   Just change the input to 'A012' and you'll get =>
