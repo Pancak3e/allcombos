@@ -13,7 +13,7 @@ def allcombos(alphabet, minlen=1, maxlen=None):
 #   Opens a txt file, 'test.txt' (rename this for your usage) outputs/saves the programs...
 #   ...'allcombinations' list automatically, with linebreaks inserted for clean out-put.
 
-sys.stdout = open("test.txt", "w")
+sys.stdout = open("allcombos.txt", "w")
 
 #  Add your list inputs here
 #  'abcdefghijklmnop0123456789!@#$%^&*-+_=~`' is listed by default
